@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Markazi Text', serif;
+}
+
+body {
+    background-color: #B08968;
+
+}
+
+nav {
+    background-color: #DDB892;
+    max-width: 100%;
+    min-height: 85px;
+    opacity: 0.7;
+}
+
+nav img {
+    position: relative;
+    max-width: 16%;
+    background-color: #DDB892;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+section img {
+    position: absolute;
+    max-width: 100%;
+    height: 622px;
+    opacity: 0.8;
+}
+
+section h2 {
+    position: absolute;
+    text-align: center;
+    left: 66.5%;
+    top: 20%;
+    font-size: 4em;
+    color: #7F5539;
+}
+
+#Login {
+    position: absolute;
+    margin: auto;
+    width: 250px;
+    left: 69%;
+    top: 35%;
+}
+
+#Login input[type="text"] {
+    font-size: 1em;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #DDB892;
+    padding: 5px 0;
+    background-color: transparent;
+    outline: none;
+    color: #7F5539;
+    font-size: 1.5em;
+}
+
+#Login .label {
+    position: absolute;
+    top: 0;
+    left: 27%;
+    color: #DDB892;
+    transition: all 0.3s ease;
+    pointer-events: none;
+    font-size: 1.5em;
+}
+
+#Login input[type="text"]:focus~.label,
+#Login input[type="text"]:valid~.label {
+    top: -20px;
+    left: 81px;
+    font-size: 1em;
+    color: #DDB892;
+}
+
+#Login .underline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #DDB892;
+    transform: scaleX(0);
+    transition: all 0.3s ease;
+}
+
+#Login input[type="text"]:focus~.underline,
+#Login input[type="text"]:valid~.underline {
+    transform: scaleX(1);
+}
+
+#Login input[type="password"] {
+    font-size: 1em;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #DDB892;
+    padding: 5px 0;
+    background-color: transparent;
+    outline: none;
+    color: #7F5539;
+    font-size: 1.5em;
+    position: absolute;
+    top: 100px;
+    right: -5px;
+}
+
+#Login .label2 {
+    position: absolute;
+    top: 100px;
+    left: 33%;
+    color: #DDB892;
+    transition: all 0.3s ease;
+    pointer-events: none;
+    font-size: 1.5em;
+}
+
+#Login input[type="password"]:focus~.label2,
+#Login input[type="password"]:valid~.label2 {
+    top: 80px;
+    left: 95px;
+    font-size: 1em;
+    color: #DDB892;
+}
+
+#Login .underline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #DDB892;
+    transform: scaleX(0);
+    transition: all 0.3s ease;
+}
+
+#Login input[type="password"]:focus~.underline,
+#Login input[type="password"]:valid~.underline {
+    transform: scaleX(1);
+}
+
+#Login #sub {
+    position: absolute;
+    margin: 200px auto;
+    right: 63px;
+    --font-color: #7F5539;
+    --bg-color: #DDB892;
+    --main-color: #9C6644;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid var(--main-color);
+    background-color: var(--bg-color);
+    box-shadow: 4px 4px var(--main-color);
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--font-color);
+    cursor: pointer;
+}
+
+#sub:active {
+    box-shadow: 100px 100px var(--main-color);
+    transform: translate(3px, 3px);
+}
