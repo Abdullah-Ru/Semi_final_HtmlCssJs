@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Noto+Naskh+Arabic:wght@700&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    font-family: 'Cairo', sans-serif;
+font-family: 'Noto Naskh Arabic', serif;
+background-color: #B08968;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+nav {
+    background-color: #EDE0D4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+
+}
+
+#thelogo {
+
+    margin: auto;
+}
