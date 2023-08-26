@@ -6,7 +6,7 @@ Login.addEventListener("submit", function Log(event) {
     if (username == "عبدالله" && password == "123123" || username == "غالي" && password == "1212" || username == "بتال" && password == "1111") {
         localStorage.setItem("username", username)
         setTimeout(function() {
-            window.location.href = "12.html"
+            window.location.href = "mainpage.html"
         }, 3000);
         Swal.fire({
             title: "! تم تسجيل دخولك بنجاح",
