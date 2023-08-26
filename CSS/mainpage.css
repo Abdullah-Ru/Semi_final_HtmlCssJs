@@ -12,7 +12,6 @@
 
 body {
   background-color: #7F5539;
-  ;
   font-weight: normal;
   font-family: 'Markazi Text', serif;
 }
@@ -24,9 +23,9 @@ html {
 }
 
 header {
-  width: 100%;
+  min-width: 100%;
   background-color: rgba(5, 1, 0, 255);
-  height: 16vh;
+  max-height: 85px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -37,7 +36,7 @@ header {
 
 header img {
   padding-top: 20px;
-  width: 300px;
+  max-width: 16%;
   padding-bottom: 30px;
 }
 
@@ -295,4 +294,8 @@ section {
         transform: translateY(0);
         opacity: 1;
     }
+}
+#H11 {
+  color: #0072b1;
+  font-size: 5em;
 }

@@ -6,8 +6,8 @@ Login.addEventListener("submit", function Log(event) {
     if (username == "عبدالله" && password == "123123" || username == "غالي" && password == "1212" || username == "بتال" && password == "1111") {
         localStorage.setItem("username", username)
         setTimeout(function() {
-            window.location.href = "12.html"
-        }, 3000);
+            window.location.href = "/HTML/mainpage.html"
+        }, 4000);
         Swal.fire({
             title: "! تم تسجيل دخولك بنجاح",
             text: "... يتم تحويلك الى الصفحة الرئيسية",
@@ -21,5 +21,4 @@ Login.addEventListener("submit", function Log(event) {
     } else {
         alert("غير صحيح حاول مره اخرى")
     }
-
 })

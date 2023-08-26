@@ -8,21 +8,19 @@
 }
 
 body {
-    background-color: #B08968;
+    background-color: #7F5539;
 
 }
 
 nav {
-    background-color: #DDB892;
+    background-color: #c0b6ac;
     max-width: 100%;
     min-height: 85px;
-    opacity: 0.7;
 }
 
 nav img {
     position: relative;
     max-width: 16%;
-    background-color: #DDB892;
     margin: auto;
     display: flex;
     justify-content: center;
