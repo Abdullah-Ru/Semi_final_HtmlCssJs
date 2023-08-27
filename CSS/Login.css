@@ -12,19 +12,23 @@ body {
 
 }
 
-nav {
-    background-color: #c0b6ac;
-    max-width: 100%;
-    min-height: 85px;
-}
-
-nav img {
-    position: relative;
-    max-width: 16%;
-    margin: auto;
+header {
+    min-width: 100%;
+    background-color: rgba(5, 1, 0, 255);
+    max-height: 85px;
     display: flex;
-    justify-content: center;
-}
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    background-color: #c0b6ac;
+  }
+  
+  header img {
+    padding-top: 20px;
+    max-width: 15%;
+    padding-bottom: 30px;
+  }
 
 section #im1 {
     position: absolute;
