@@ -2,7 +2,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Markazi Text', serif;
+
 }
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap');
+
 
 /* Style the body */
 body {
@@ -80,13 +84,64 @@ h5 {
 }
 
 /* Footer */
-.footer {
-    padding: 100px;
+#footer {
+    padding: 20px;
     text-align: center;
-    background-image: url(/IMG/an\ arab\ wise\ ma\ 1.png);
     background-repeat: no-repeat;
     background-size: cover;
     border-top: 5px solid #f1f1f1;
+}
+
+#buttt{
+    background: transparent;
+    border: none;
+    font-size: 40px;
+    position: relative;
+    margin: auto;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    top: -10px;
+}
+#bord_1 {
+    border-style: solid ;
+    background: #f1f1f1;
+    border-color: #EDE0D4;
+    border-radius: 15px;
+    border-width:3px;
+    width: 50%;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px ;
+}
+#h33 {
+    text-align: right;
+    position: relative;
+    right: -300px;
+    top: 10px;
+}
+#p33 {
+    text-align: right;
+    position: relative;
+    right: -250px;
+    top: 20px;
+    font-size: large;
+}
+#buttt1{
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    position: relative;
+    margin: auto;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    left: -300px;
+    top: 30px;
 }
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */

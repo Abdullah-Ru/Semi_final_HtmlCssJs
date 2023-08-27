@@ -48,7 +48,18 @@ section {
     justify-content: space-evenly;
     align-items: center;
 }
-
+#addd{
+    /* background: transparent; */
+    border: solid;
+    background-color: #dfd6cd;
+    border-radius: 100%;
+    font-size: 40px;
+    position: relative;
+    margin: auto;
+    outline: none;
+    color: #7F5539;
+    cursor: pointer;
+}
 #the-main-text {
     font-size: 5em;
     color: white;
@@ -93,6 +104,11 @@ p {
     padding-top: 10px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
 }
 
 .btn {
@@ -104,8 +120,12 @@ p {
     border: 3px solid #b46e3f;
     color: #fff;
     border-radius: 5px;
-    margin-top: 7%;
+    margin: auto;
     transition: all .4s;
+    position: relative;
+    /* top: 10px;
+    right: -100px; */
+    display: inline-block;
 }
 
 .btn:hover {
@@ -113,6 +133,20 @@ p {
     background: transparent;
     color: #cf5b0e;
 }
+.btn1{
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    position: relative;
+    margin: auto;
+    outline: none;
+    color: #7F5539;
+}
+
+.btn1 i:hover{
+    cursor: pointer;
+}
+
 
 footer {
     margin-top: 6%;
