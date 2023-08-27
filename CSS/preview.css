@@ -2,43 +2,44 @@
     margin: 0;
     padding: 0;
     font-family: 'Markazi Text', serif;
-  }
-  
-  /**  وهنا وضعنا خط الصفحة لجعله مريح للعين ولجمالية الموقع  **/
-  
-  @import url('https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap');
-  
-  /**  غيرنا لون الخلفية **/
-  
-  body {
+}
+
+/**  وهنا وضعنا خط الصفحة لجعله مريح للعين ولجمالية الموقع  **/
+
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap');
+
+/**  غيرنا لون الخلفية **/
+
+body {
     background-color: #7F5539;
+    ;
     font-weight: normal;
     font-family: 'Markazi Text', serif;
-  }
-  
-  /** غيرنا شكل التصفح وصار سلس اكثر وافضل  **/
-  
-  html {
+}
+
+/** غيرنا شكل التصفح وصار سلس اكثر وافضل  **/
+
+html {
     scroll-behavior: smooth;
-  }
-  
-  header {
-    min-width: 100%;
+}
+
+header {
+    width: 100%;
     background-color: rgba(5, 1, 0, 255);
-    max-height: 85px;
+    height: 16vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    position: relative;
+    position: absolute;
     background-color: #c0b6ac;
-  }
-  
-  header img {
+}
+
+header img {
     padding-top: 20px;
-    max-width: 15%;
+    width: 300px;
     padding-bottom: 30px;
-  }
+}
 
 section {
     padding-top: 50px;
@@ -53,7 +54,7 @@ section {
     color: white;
     position: relative;
     text-align: center;
-    margin-top: .1%;
+    margin-top: 5%;
 }
 
 .card3 {
