@@ -22,22 +22,81 @@ html {
   scroll-behavior: smooth;
 }
 
+#IMG1 {
+  max-width: 40%;
+  position: relative;
+  margin-top: 4%;
+  margin-left: 59%;
+}
+
+/**  رأٍس الصفحة **/
+
 header {
-  min-width: 100%;
+  width: 100%;
   background-color: rgba(5, 1, 0, 255);
-  max-height: 85px;
+  height: 15vh;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  gap: 0%;
   position: absolute;
-  background-color: #c0b6ac;
+  background-color: #c1b6aa;
 }
 
 header img {
-  padding-top: 20px;
-  max-width: 16%;
-  padding-bottom: 30px;
+  transition: 0.5s;
+  /* margin-right: 5%; */
+  padding-bottom: 40px;
+}
+
+header img:hover {
+  color: #ffffff;
+  transform: translate(0px, -5px);
+}
+
+/**  ازرار تسجيل الخروج والدخول وانشاء الحساب **/
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 15px;
+  margin-right: 35%;
+  padding-bottom: 10px;
+}
+
+button {
+  font-weight: 900;
+  width: 140px;
+  height: 50px;
+  border: 3px solid #c1b6aa;
+  border-radius: 25px;
+  transition: all 0.3s;
+  cursor: pointer;
+  background: #7F5539;
+  font-size: 1.3em;
+  font-weight: 550;
+  color: #ffffff;
+}
+
+button:hover {
+  background: transparent;
+  color: #7F5539;
+  border: 3px solid #7F5539;
+}
+
+#button {
+  width: 140px;
+  height: 50px;
+  border: 3px solid #7F5539;
+  border-radius: 25px;
+  transition: all 0.3s;
+  cursor: pointer;
+  background: #ffffff;
+  font-size: 1.2em;
+  font-weight: normal;
+  color: #7F5539;
 }
 
 /**  الخلفية الاولى مع النص والعنوان وزر تحريك الصفحة **/
@@ -46,21 +105,30 @@ header img {
   position: relative;
   text-align: center;
   color: white;
-  margin-top: 5%;
-  height: 700px;
+  height: 630px; 
+  padding-bottom: 5%; 
 }
 
-.image img {
-  content: "";
+.image #img1 {
   position: relative;
-  top: 10%;
-  width: 30%;
-  right: 26%;
+  width: 100%;
+  height: 630px;
+  filter: brightness(35%);  
+  background: transparent;
+}
+
+.image #img2 {
+  filter: brightness(80%); 
+  position: relative;
+  width: 450px;
+  height: 430px;
+  right: 32%;
+  top: -80%;
 }
 
 .image h2 {
   text-align: center;
-  color: #ede0d4;
+  color: #e4e4e4;
   content: "";
   position: absolute;
   right: 7%;
@@ -73,7 +141,7 @@ header img {
 }
 
 .image p {
-  color: #ede0d4;
+  color: #e4e4e4;
   font-weight: lighter;
   text-align: center;
   content: "";
@@ -86,28 +154,29 @@ header img {
 }
 
 #B {
-  margin-top: 28%;
-  right: 22%;
-  position: absolute;
+  right: -36%;
+  position: relative;
+  top: -95%;
+
 }
 
 #B {
   font-weight: 900;
   width: 200px;
   height: 70px;
-  border: 3px solid #EDE0D4;
+  border: 3px solid #e4e4e4;
   border-radius: 25px;
   transition: all 0.3s;
   cursor: pointer;
-  background: #ede0d4;
-  font-size: 2.5em;
+  background: transparent;
+  font-size: 3em;
   font-weight: 550;
-  color: #7F5539;
+  color: #e4e4e4;
 }
 
 .image #B:hover {
-  background: transparent;
-  color: #ede0d4;
+  background: #99623e;
+  color: #e4e4e4;
 }
 
 .h2 {
@@ -151,6 +220,7 @@ section {
   border-width: 3px;
   border-radius: 10%;
   overflow: hidden;
+  transition: .3s;
 }
 
 .card .img-content {
@@ -199,7 +269,6 @@ section {
 }
 
 .card:hover .img-content {
-  scale: 1.5;
   filter: blur(4px);
   filter: brightness(50%);
 }
