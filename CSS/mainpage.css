@@ -21,14 +21,12 @@ body {
 html {
   scroll-behavior: smooth;
 }
-
 #IMG1 {
   max-width: 40%;
   position: relative;
   margin-top: 4%;
   margin-left: 59%;
 }
-
 /**  رأٍس الصفحة **/
 
 header {
@@ -57,7 +55,7 @@ header img:hover {
 
 /**  ازرار تسجيل الخروج والدخول وانشاء الحساب **/
 
-.button {
+#button_1 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -86,7 +84,7 @@ button:hover {
   border: 3px solid #7F5539;
 }
 
-#button {
+#b2 {
   width: 140px;
   height: 50px;
   border: 3px solid #7F5539;
@@ -98,7 +96,17 @@ button:hover {
   font-weight: normal;
   color: #7F5539;
 }
-
+#userh2 {
+  color: #7F5539;
+  position: absolute;
+  margin: auto;
+  font-size: 2em;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  top: 28px;
+  left: 15px;
+}
 /**  الخلفية الاولى مع النص والعنوان وزر تحريك الصفحة **/
 
 .image {
